@@ -1,0 +1,1 @@
+import"./translation.CEfBIauG.js";function u(n,o){const t=n.replace(/^\/|\/$/g,"").toLowerCase(),e=o.replace(/^\/|\/$/g,"").toLowerCase();return t===e}function r(...n){return n.join("/").replace(/\/+/g,"/")}function i(n){return a(`/posts/${n}/`)}function a(n){return r("","/v2/",n)}export{i as g,u as p,a as u};
